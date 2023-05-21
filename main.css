@@ -5,32 +5,66 @@
   }
   
   body {
+    padding-top: 20vh;
     font-family: 'SF Pro Display', sans-serif;
     background-color: rgb(0, 0, 0);
     color: white;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1 {
     line-height: 1;
   }
 
+  .container {
+    width: 65vh;
+  }
+
   .backgroundImage {
+    z-index: -1;
     position: absolute;
     max-width: 3024px;
-    width: 99%;
-    z-index: -1;
+    width: 150vh;
+    /* min-width: 100%; */
     top: 0;
+  }
+
+  .reserveForm {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .reserveForm input {
     color: white;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid rgb(91, 91, 91);
     padding: 10px;
+    margin: 2px;
+    flex: 0 0 calc(50% - 4px);
+    box-sizing: border-box;
   }
 
-  .reserveForm .inputHandleBox {
+  .reserveForm input:hover {
     border: 1px solid rgb(0, 255, 0);
+  }
+
+  .reserveForm #handle {
+    flex-basis: 99.2%;
   }
 
   .reserveForm p {
     font-size: 1.3vh;
+    flex: 0 0 100%;
+  }
+
+  .reserveForm button {
+    width: 50%;
+    min-width: 20vh;
+    height: 5vh;
+    border-radius: 10px;
+    font-weight: bold;
   }
