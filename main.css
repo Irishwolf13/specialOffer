@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src:  url('fonts/SFProDisplay-Regular.woff2') format('woff2'),
+          url('fonts/SFProDisplay-Regular.woff') format('woff');
+  }
+  
+  body {
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    line-height: 1;
+  }
+
+  .backgroundImage {
+    position: absolute;
+    max-width: 3024px;
+    width: 99%;
+    z-index: -1;
+    top: 0;
+  }
+
+  .reserveForm input {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(91, 91, 91);
+    padding: 10px;
+  }
+
+  .reserveForm .inputHandleBox {
+    border: 1px solid rgb(0, 255, 0);
+  }
+
+  .reserveForm p {
+    font-size: 1.3vh;
+  }
