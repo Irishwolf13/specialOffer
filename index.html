@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="./main.css">
-    <script defer src="scripts/english.js"></script>
     <script defer src="scripts/index.js"></script>
-    <script defer src="scripts/multiple.js"></script>
-    <script defer src="scripts/fillBlanks.js"></script>
-    <script defer src="scripts/runTime.js"></script>
 </head>
 <body>
     <div class="container">
@@ -13,13 +9,13 @@
         <p>We are heads down on building this product<br>towards an early alpha launch in Q2 2023.</p>
         <p>Reserve your handle, share this page and follow us.</p>
         <form class="reserveForm">
-            <input type="text" id="name" placeholder="Name">
-            <input type="text" id="email" placeholder="Email">
-            <input type="text" id="handle" placeholder="Handle" class="inputHandleBox">
+            <input class="formName" type="text" id="name" placeholder="Name">
+            <input class="formEmail" type="text" id="email" placeholder="Email">
+            <input class="formHandle" type="text" id="handle" placeholder="Handle" class="inputHandleBox">
             <p>By entering the above information you are agreeing to receive <br>
                 emails from or on behalf of SPECIAL OFFER.
             </p>
-            <button type="submit">Submit</button>
+            <button class="formSubmitButton" type="submit">Submit</button>
         </form>
     </div>
     <img src="images/Asset.png" alt="background" class="backgroundImage"/>
